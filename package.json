@@ -1,0 +1,51 @@
+{
+  "name": "ledgerly",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A calm, full-stack invoicing workspace for independent studios.",
+  "license": "MIT",
+  "author": "Faizan Khan (https://github.com/Faizan-khan144)",
+  "homepage": "https://github.com/Faizan-khan144/ledgerly#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faizan-khan144/ledgerly.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Faizan-khan144/ledgerly/issues"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "sqlite",
+    "invoicing",
+    "freelance",
+    "studio",
+    "finance"
+  ],
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test --experimental-strip-types tests/money.test.ts tests/password.test.ts"
+  },
+  "dependencies": {
+    "lucide-react": "1.66.0",
+    "next": "15.5.28",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/node": "24.10.1",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "tailwindcss": "4.3.3",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
